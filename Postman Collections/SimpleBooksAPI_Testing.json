@@ -329,7 +329,7 @@
 				"auth": {
 					"type": "bearer",
 					"bearer": {
-						"token": "{{access token}}"
+						"token": "{{accessToken}}"
 					}
 				},
 				"method": "PATCH",
@@ -355,7 +355,7 @@
 					"variable": [
 						{
 							"key": "orderId",
-							"value": "{{order ID}}"
+							"value": "{{order_ID}}"
 						}
 					]
 				}
@@ -435,7 +435,7 @@
 	],
 	"variable": [
 		{
-			"id": "11675a7d-142b-48c3-bd84-9ac767ca902c",
+			"id": "84142b59-c3b2-4887-864c-adaad33d79c1",
 			"key": "baseURL",
 			"value": "https://simple-books-api.glitch.me"
 		}
