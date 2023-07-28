@@ -22,7 +22,7 @@
 					}
 				}
 			],
-			"_postman_id": "3b12d53b-9d6c-45e9-aae4-2d7bd5261e13",
+			"id": "3b12d53b-9d6c-45e9-aae4-2d7bd5261e13",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -62,7 +62,7 @@
 					}
 				}
 			],
-			"_postman_id": "f50ce01b-5918-466d-90df-902d1a8240a7",
+			"id": "f50ce01b-5918-466d-90df-902d1a8240a7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -114,7 +114,7 @@
 					}
 				}
 			],
-			"_postman_id": "c4aa0a77-596b-4e3c-a8d8-b2124559fe16",
+			"id": "c4aa0a77-596b-4e3c-a8d8-b2124559fe16",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -133,8 +133,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": "{{bookId}}",
-							"type": "string"
+							"value": "{{bookId}}"
 						}
 					]
 				}
@@ -160,7 +159,7 @@
 					}
 				}
 			],
-			"_postman_id": "d907902b-00f2-42fc-8689-1cb0038eed35",
+			"id": "d907902b-00f2-42fc-8689-1cb0038eed35",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -199,7 +198,7 @@
 					}
 				}
 			],
-			"_postman_id": "ef16d18a-3f3b-4019-a150-0a70dd8c08b3",
+			"id": "ef16d18a-3f3b-4019-a150-0a70dd8c08b3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -241,7 +240,7 @@
 					}
 				}
 			],
-			"_postman_id": "53049cc2-cbe4-4b44-bac8-e7233a6f489f",
+			"id": "53049cc2-cbe4-4b44-bac8-e7233a6f489f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -274,7 +273,7 @@
 					}
 				}
 			],
-			"_postman_id": "20f13ddc-6c94-4dea-b67e-a1ae5a7590b3",
+			"id": "20f13ddc-6c94-4dea-b67e-a1ae5a7590b3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -299,8 +298,7 @@
 					"variable": [
 						{
 							"key": "orderId",
-							"value": "{{order ID}}",
-							"type": "string"
+							"value": "{{order ID}}"
 						}
 					]
 				}
@@ -323,7 +321,7 @@
 					}
 				}
 			],
-			"_postman_id": "c97745c4-037f-44ba-a7eb-11b96cc0cbf4",
+			"id": "c97745c4-037f-44ba-a7eb-11b96cc0cbf4",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -357,8 +355,7 @@
 					"variable": [
 						{
 							"key": "orderId",
-							"value": "{{order ID}}",
-							"type": "string"
+							"value": "{{order ID}}"
 						}
 					]
 				}
@@ -381,7 +378,7 @@
 					}
 				}
 			],
-			"_postman_id": "7aa4d4a0-6e7e-495e-8996-ffa6bef461fd",
+			"id": "7aa4d4a0-6e7e-495e-8996-ffa6bef461fd",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -389,7 +386,7 @@
 				"auth": {
 					"type": "bearer",
 					"bearer": {
-						"token": "{{access token}}"
+						"token": "{{accessToken}}"
 					}
 				},
 				"method": "DELETE",
@@ -406,8 +403,7 @@
 					"variable": [
 						{
 							"key": "orderId",
-							"value": "{{order ID}}",
-							"type": "string"
+							"value": "{{order_ID}}"
 						}
 					]
 				}
@@ -439,10 +435,9 @@
 	],
 	"variable": [
 		{
-			"id": "d45382ce-c38c-4aed-8df2-d002682f0c8a",
+			"id": "5856ae5f-eee1-4539-bbf2-52bad06404f0",
 			"key": "baseURL",
-			"value": "https://simple-books-api.glitch.me",
-			"type": "string"
+			"value": "https://simple-books-api.glitch.me"
 		}
 	]
 }
