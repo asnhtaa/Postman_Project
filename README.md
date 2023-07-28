@@ -18,8 +18,8 @@ To work with the project, you will need to install Postman, which can be downloa
    
 2. Open Postman on your computer.
 
-3. Import the test request collection from the project by selecting the "SimpleBooksAPI_Testing.json" file in the "collections" directory.
+3. Import the test request collection from the project by selecting the "SimpleBooksAPI_Testing.json" file in the project's directory.
 
-4. Run the tests by selecting the collection and clicking the "Run" button in Postman.
+4. Run the tests by selecting the collection and clicking the "Run collection" button in Postman.
 
-5. Observe the test results in the "Runner" tab and ensure that all tests pass successfully.
+5. Observe the test results and ensure that all tests pass successfully.
