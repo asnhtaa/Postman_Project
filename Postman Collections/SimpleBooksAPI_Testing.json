@@ -248,7 +248,7 @@
 				"auth": {
 					"type": "bearer",
 					"bearer": {
-						"token": "{{access token}}"
+						"token": "{{accessToken}}"
 					}
 				},
 				"method": "GET",
@@ -435,7 +435,7 @@
 	],
 	"variable": [
 		{
-			"id": "aa5cf301-17c8-404a-b088-34a6789bd68a",
+			"id": "11675a7d-142b-48c3-bd84-9ac767ca902c",
 			"key": "baseURL",
 			"value": "https://simple-books-api.glitch.me"
 		}
