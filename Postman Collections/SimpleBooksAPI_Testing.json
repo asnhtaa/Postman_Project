@@ -192,7 +192,7 @@
 							"});\r",
 							"\r",
 							"const response = pm.response.json();\r",
-							"pm.globals.set(\"order ID\", response.orderId);"
+							"pm.globals.set(\"order_ID\", response.orderId);"
 						],
 						"type": "text/javascript"
 					}
@@ -206,7 +206,7 @@
 				"auth": {
 					"type": "bearer",
 					"bearer": {
-						"token": "{{access token}}"
+						"token": "{{accessToken}}"
 					}
 				},
 				"method": "POST",
@@ -435,7 +435,7 @@
 	],
 	"variable": [
 		{
-			"id": "84142b59-c3b2-4887-864c-adaad33d79c1",
+			"id": "0067e63a-4a7e-4b64-b594-06331c5b7193",
 			"key": "baseURL",
 			"value": "https://simple-books-api.glitch.me"
 		}
